@@ -21,6 +21,8 @@ cloudpickle = "^2.0.0"
 fastprogress = "^1.0.0"
 mkl-service = "^2.4.0"
 pymc3 = "^3.11.4"
+darts = "^0.13.1"
+plotly = "^5.4.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
