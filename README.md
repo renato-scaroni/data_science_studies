@@ -24,6 +24,7 @@ Baseado no projeto rbenv-installer o pyenv-installer deixa o processo de instala
 Cole o conteúdo abaixo no final do arquivo ‘~/.bashrc’
 
     export PATH="$HOME/.pyenv/bin:$PATH"
+    export PATH="$HOME/.pyenv/shims:$PATH"
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
 
